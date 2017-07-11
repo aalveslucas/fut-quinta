@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+	font-family: "Roboto Condensed";
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.4);
+	color: rgb(100,100,100);
+	background: #ddd;
+	text-shadow: 1px 1px 1px #fff;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+}
+
+label.alinha {
+	display: inline-block;
+	width: 160px;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+label.obrigatorio {
+	color: red;
+	font-weight: bold;
+}
+
+input.maior {
+	width: 300px;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="date"], select {
+	font-family: "Roboto Condensed";
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="date"]:focus {
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+fieldset {
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	background: rgba(224, 233, 233, 0.4);
+	padding: 15px;
+	width: 60%;
+	margin-bottom: 30px; /*cuidado com a flutuação em relação a margens*/
+}
+
+fieldset.esquerdo {
+	float: left;
+	width: 500px;
+	height: 250px;
+
+}
+
+fieldset.direito {
+	float: right;
+	width: 500px;
+	height: 250px;
+}
+
+form {
+	width: 85%;
+	margin: 30px auto;
+}
+
+div.botoes {
+	/*impedir que os botões subam e fiquem entre os fieldsets flutuados*/
+	clear: both;
+}
+
+button.alinha {
+	font-family: "Roboto Condensed";
+	font-size: 20px;
+	display: inline-block;
+	width: 160px;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+button {
+	font-family: "Roboto Condensed";
+	font-size: 20px;
+	width: 250px;
+	font-weight: bold;
+	margin-right: 25px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+
+p {
+	font-size: 20px;
+	width: 80%;
+	margin: 20px auto;
+	border: 1px solid #aaa;
+	padding: 10px;
+	background: #ddd;
+}
+
+caption {
+	margin-bottom: 5px;
+	text-align: right;
+	background: #eee;
+}
+table {
+	width: 30%;
+	margin: 30px auto;
+	border-spacing: 0;
+	border: 1px solid #999;
+}
+
+td, th {
+	border: 1px solid #999;
+}
+
+td {
+	padding: 10px;
+	background: #f9f9f9;
+}
+
+th {
+	background: #dedfdf;
+}
